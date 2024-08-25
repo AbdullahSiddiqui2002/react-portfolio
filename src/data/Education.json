@@ -1,18 +1,15 @@
 [
     {
-        "degree": "BS Computer Science",
-        "insitute": "GC Universty Faisalabad",
-        "session": "2020-2024",
-        "course": "C++, OPP,  Mobile-development(Java), Data Stucture & Algorithm, Artificial Inteligence, Design and analysis of algorithms, Database System, web development"
+        "degree": "Advanced Diploma in Software Engineering",
+        "insitute": "Aptech Learning, North Nazimabad, Karachi",
+        "session": "2023 - 2026",
+        "description": "I am currently pursuing a advanced diploma in Software Engineering at Aptech Learning. I have completed 3 semesters. I have taken courses in Html, Css, JavaScript, Mysql, Php Laravel, Sql Server, C#, Asp.net, among others."
     },
     {
-        "degree": "Intermediate in Computer Science (ICS)",
-        "insitute": "Shiblee College faisalabad",
-        "session": "2018-2020"
-    },
-    {
-        "degree": "Matric in Computer Science",
-        "insitute": "Center of Execellence Higher Secondary School jaranwala",
-        "session": "2016-2018"
+        "degree": "Bachelor of Science - BS, Software Engineering",
+        "insitute": "Umaer Basha Institute of Science And Technology (UBIT), University of Karachi",
+        "session": "2022 - 2026",
+        "grade": "Grade: 3.23 CGPA out of 4",
+        "description": "I am currently pursuing a Bachelor's degree in Software Engineering at Umaer Basha Institute of Science And Technology. I have completed 5 semesters. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others."
     }
 ]

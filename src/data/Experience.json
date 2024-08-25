@@ -1,14 +1,14 @@
 [
     {
-        "company": "TopSol_org",
-        "jobTitle":"Frontend Developer with typescript",
-        "description":"Spearheading front-end development at TopSol_org, leveraging React.js to build cutting-edge and responsive user interfaces.🌐Collaborating with cross-functional teams to deliver high-quality, scalable solutions that elevate the user experience."
-
+        "company": "Xera Marketing",
+        "jobTitle":"Junior Frontend developer",
+        "description":"I've joined an amazing team where I'll be putting my skills in HTML, CSS, and JavaScript to work on exciting projects.",
+        "duration": "Feb 2024 - Present"
     },
     {
-        "company": "TopSol_org",
-        "jobTitle":"Frontend Developer with typescript",
-        "description":"Spearheading front-end development at TopSol_org, leveraging React.js to build cutting-edge and responsive user interfaces. 🌐 Collaborating with cross-functional teams to deliver high-quality, scalable solutions that elevate the user experience."
-
+        "company": "Xera Marketing",
+        "jobTitle":"Frontend developer Intern",
+        "description":"During this enriching experience from January to February 2024, I delved deep into HTML, CSS, and JavaScript, honing my skills and exploring various facets of web development.",
+        "duration": "Jan 2024 - Feb 2024"
     }
 ]

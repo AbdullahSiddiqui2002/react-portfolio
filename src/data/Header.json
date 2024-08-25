@@ -1,12 +1,11 @@
 {
-    "name": "Danish",
-    "skill": "MENR STACK Developer",
-    "jobtitle":"Freelancer",
+    "name": "Abdullah",
+    "skill": "FULL STACK Developer",
     "profileImg":"src/assets/profile.png",
     "skillsImages":[
-        "/assets/redux.png",
-        "/assets/react.png",
-        "/assets/node.png"
+        "/assets/skills/html.png",
+        "/assets/skills/c-sharp.png",
+        "/assets/skills/asp.net.png"
     ]
 
 }

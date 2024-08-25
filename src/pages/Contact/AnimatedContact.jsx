@@ -1,47 +1,35 @@
-import { useState } from 'react';
-import { useRef } from 'react'
+import { useState, useRef, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 
 const AnimatedContact = () => {
+    const [success, setSuccess] = useState(null); // Keep it as a boolean
+    const formRef = useRef();
+    const Ref = useRef();
+    const isInView = useInView(Ref, { margin: "-100px" });
+
+    useEffect(() => {
+        emailjs.init("YL-eR4WwAx3puTWkL");
+    }, []);
 
     const openGmail = () => {
-        window.location.href = `mailto:dnazir343@gmail.com`;
+        window.location.href = `mailto:abdullah.siddiqui13122002@gmail.com`;
     };
 
-    ////////////////---Web3form-start---////////////////////
-
-    const [success, setSuccess] = useState(false);
-
-    const Ref = useRef();
-
-    const onSubmit = async (event) => {
+    const onSubmit = (event) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
-
-        formData.append("access_key", "c5337b27-2f6e-4409-9479-10dc437b88aa");
-
-        const object = Object.fromEntries(formData);
-        const json = JSON.stringify(object);
-
-        const res = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-            },
-            body: json
-        }).then((res) => res.json());
-
-        if (res.success) {
-            setSuccess("Success", res);
-        }
+        emailjs.sendForm("service_1kej3ht", "template_mljf74g", formRef.current)
+        .then(() => {
+                
+                setSuccess(true);
+            })
+            .catch((error) => {
+                
+                setSuccess(false);
+            });
     };
 
-
-    ///////////---Web3Form-end---//////////////
-
-    const isInView = useInView(Ref, { margin: "-100px" })
     return (
         <>
             <motion.div
@@ -59,7 +47,7 @@ const AnimatedContact = () => {
 
                         <p onClick={openGmail} className=" text-white hover:text-white/60 hover:underline md:text-xl text-md cursor-pointer">
 
-                            dnazir343@gmail.com
+                             abdullah.siddiqui13122002@gmail.com
                         </p>
                     </motion.div>
 
@@ -67,16 +55,26 @@ const AnimatedContact = () => {
                     <motion.div whileInView={{ y: [70, 0], opacity: [0, 1] }}
                         transition={{ duration: [1.4] }}>
 
-                        <Link to="https://linkedin.com/in/danish-nazir-553310272" target='_blank'
+                        <Link to="https://www.linkedin.com/in/abdullah-siddiqui2002/" target='_blank'
                         >
                             <h2 className='md:text-2xl text-xl text-white font-semibold'>LinkedIn</h2>
-                            <span className='text-sky-500 font-semibold'>LinkedIn Profile :</span>
+                            <span className='text-sky-500 font-semibold'>LinkedIn Profile : </span>
                             <span className='hover:underline text-white'>
-                                Danish Nazir
+                                Abdullah Siddiqui
                             </span>
                         </Link>
                     </motion.div>
                     <motion.div whileInView={{ y: [70, 0], opacity: [0, 1] }}
+                        transition={{ duration: [1.2] }} >
+
+                        <h2 className='md:text-2xl text-xl text-white font-semibold'>Address</h2>
+
+                        <p className=" text-white hover:text-white/60 hover:underline md:text-xl text-md cursor-pointer">
+
+                            Karachi, Pakistan
+                        </p>
+                    </motion.div>
+                    {/* <motion.div whileInView={{ y: [70, 0], opacity: [0, 1] }}
                         transition={{ duration: [1.6] }}>
 
                         <Link to="https://www.upwork.com/workwith/danig6" target='_blank'>
@@ -89,7 +87,7 @@ const AnimatedContact = () => {
 
                             </p>
                         </Link>
-                    </motion.div>
+                    </motion.div> */}
 
 
                 </div>
@@ -114,12 +112,14 @@ const AnimatedContact = () => {
 
                     </motion.div>
 
-                    <motion.div className="z-10"
-                        whileInView={{ opacity: 1, y: [100, 0] }}
-                        initial={{ opacity: 0 }}
-                        transition={{ duration: 1, delay: 4 }}>
-
-                        <form onSubmit={onSubmit}>
+                    <motion.form
+                        onSubmit={onSubmit}
+                        ref={formRef}
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView && { opacity: 1, y: 0 }}
+                        transition={{ duration: 1, delay: 2 }}
+                        className="z-10"
+                    >
 
                             <input
                                 type="text"
@@ -147,11 +147,9 @@ const AnimatedContact = () => {
 
 
                             <button className='bg-teal-600 hover:bg-teal-700 text-white py-2 w-[80%] rounded md:text-xl text-lg my-5 text-center' type='submit' >Submit</button>
-                            <p className='text-xl text-green-500 uppercase'>{success && "Message is Send Succesfully"}</p>
+                            <p className='text-xl text-green-500 uppercase'>{success && "Your message has been sent successfully!"}</p>
 
-                        </form>
-
-                    </motion.div>
+                        </motion.form>
                 </div>
             </motion.div>
         </>

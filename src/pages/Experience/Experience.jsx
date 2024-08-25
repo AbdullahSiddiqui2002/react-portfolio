@@ -21,6 +21,7 @@ const Experience = () => {
                     <div className="w-3 h-3 rounded-full bg-teal-400 absolute left-[-7px]"></div>
                     <h2 className='text-xl text-white'>{exp.jobTitle}</h2>
                     <p className='text-md text-white/90'>{exp.company}</p>
+                    <p className='text-md text-white/80'>{exp.duration}</p>
                     <p className='text-sm text-justify text-white/60'>{exp.description}</p>
                   </div>
                 </motion.div>
@@ -41,10 +42,11 @@ const Experience = () => {
                   transition={{ duration: 1, }}>
                   <div className='flex flex-col gap-2 border-l-2 border-teal-400 ml-1 pl-3 relative'>
                     <div className="w-4 h-4 rounded-full border-2 border-teal-400 absolute left-[-9px] top-[-14px]"></div>
-
-                    <h2 className='text-xl text-white'>{edu.degree}</h2>
-                    <p className='text-md text-white/80 underline'>{edu.insitute}</p>
-                    <p className='text-sm text-justify text-white/60'>{edu.course}</p>
+                    <p className='text-xl text-white'>{edu.insitute}</p>
+                    <h2 className='text-md text-white/90'>{edu.degree}</h2>
+                    <p className='text-sm text-white/80'>{edu.session}</p>
+                    <p className='text-sm text-justify text-white/60'>{edu.grade}</p>
+                    <p className='text-sm text-justify text-white/60'>{edu.description}</p>
                   </div>
                 </motion.div>
               </>

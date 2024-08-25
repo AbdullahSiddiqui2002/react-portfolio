@@ -1,42 +1,38 @@
 [
     {
-        "title": "React.JS",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/bgreact.png"
+        "title": "Html",
+        "imgUrl": "/assets/skills/html.png"
     },
     {
-        "title": "Next.JS ",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/bgnext.webp"
+        "title": "Css",
+        "imgUrl": "/assets/skills/css.png"
     },
     {
-        "title": "Node.JS ",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/bgnode.png"
+        "title": "Js",
+        "imgUrl": "/assets/skills/js.png"
     },
     {
-        "title": "Redux ToolKit",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/reduxtoolkit.png"
+        "title": "Bootstrap",
+        "imgUrl": "/assets/skills/bootstrap.png"
     },
     {
-        "title": "JavaScript(ES6)",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/bgjs.jpeg"
+        "title": "Sql Server",
+        "imgUrl": "/assets/skills/sql-server.png"
     },
     {
-        "title": "MongoDB/Mongosee",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/monogodb.png"
+        "title": "Css",
+        "imgUrl": "/assets/skills/css.png"
     },
     {
-        "title": "TailWind/Bootstrap",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/bgtb.jpg"
+        "title": "Css",
+        "imgUrl": "/assets/skills/css.png"
     },
     {
-        "title": "Framer Motion",
-        "description": "I am Passinative React developer with 1+ year experince ",
-        "imgUrl": "/assets/framer.png"
+        "title": "Css",
+        "imgUrl": "/assets/skills/css.png"
+    },
+    {
+        "title": "Css",
+        "imgUrl": "/assets/skills/css.png"
     }
 ]

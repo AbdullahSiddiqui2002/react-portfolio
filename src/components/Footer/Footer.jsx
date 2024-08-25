@@ -28,17 +28,17 @@ const Footer = () => {
           </ul>
 
           <div className="flex gap-3">
-            <Link to="https://linkedin.com/in/danish-nazir-553310272" target='_blank'
+            <Link to="https://www.linkedin.com/in/abdullah-siddiqui2002/" target='_blank'
               className="w-[30px] h-[30px] bg-slate-300 rounded-full flex justify-center items-center ">
               <FaLinkedin className='hover:text-sky-500 text-xl' />
             </Link>
 
-            <Link to="https://www.upwork.com/workwith/danig6" target='_blank'
+            {/* <Link to="https://www.upwork.com/workwith/danig6" target='_blank'
               className="w-[30px] h-[30px] bg-slate-300 rounded-full flex justify-center items-center ">
               <SiUpwork className='hover:text-teal-600 text-xl' />
-            </Link>
+            </Link> */}
 
-            <Link to="https://github.com/DaNiwebDevlper" target='_blank'
+            <Link to="https://github.com/AbdullahSiddiqui2002" target='_blank'
               className="w-[30px] h-[30px] bg-slate-300 rounded-full flex justify-center items-center ">
               <AiFillGithub className='hover:text-blue-800  text-[24px]' />
             </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
-        <span className="block text-sm  sm:text-center text-gray-400">© 2023 <Link to="https://www.upwork.com/workwith/danig6" target='_blank' className="hover:underline">Dani-Dev™</Link>. All Rights Reserved.</span>
+        <span className="block text-sm  sm:text-center text-gray-400">© 2024 <Link to="https://www.linkedin.com/in/abdullah-siddiqui2002/" target='_blank' className="hover:underline">Siddiqui-Dev™</Link>. All Rights Reserved.</span>
       </div>
     </footer>
 
