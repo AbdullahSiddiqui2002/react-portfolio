@@ -10,7 +10,7 @@ const Project = () => {
       ? projects
       : projects.filter((project) => project.stack === selectedFilter);
 
-  const filterOptions = ['all', 'React', 'Next', 'JS'];
+  const filterOptions = ['all', 'Static Websites', 'Dynamic Websites'];
 
 
 
@@ -45,7 +45,7 @@ const Project = () => {
 
 
       </div>
-      <div className='flex flex-wrap gap-x-9 justify-center items-center'>
+      <div className='flex flex-wrap gap-x-9 justify-center'>
         {filteredProjects.map((project) => {
 
 

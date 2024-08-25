@@ -67,7 +67,7 @@ const Header = () => {
                     className='flex flex-1 md:flex-col  md:h-screen gap-3 md:items-start items-start justify-center md:justify-center'>
                     {header.skillsImages.map((image, index) => (
                         <div className='w-[80px] h-[80px] bg-teal-600/20 mt-9 md:mt-0  rounded-full flex items-center justify-center even:w-[120px] even:h-[120px] md:even:ml-9 even:mt-[80px] md:even:mt-0' key={`circle-${index}`}>
-                            <img src={image} alt="circle" className='w-[60px] h-[60px] ' key={index} />
+                            <img src={image} alt="circle" className='w-[50px] h-[50px] ' key={index} />
                         </div>
                     ))}
                 </motion.div>

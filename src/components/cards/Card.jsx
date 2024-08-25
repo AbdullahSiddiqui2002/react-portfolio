@@ -14,7 +14,7 @@ const Card = ({ imgUrl, title, liveLink, GithubLink, id }) => {
                 >
 
                     <Link to={"/projects/" + id}>
-                        <img src={imgUrl} className='w-full h-[180px] object-cover rounded-xl' /></Link>
+                        <img src={imgUrl} className='w-full h-[180px] rounded-xl' /></Link>
 
                 </CardItem>
                 {/* ////////////---Card-Title//////// */}

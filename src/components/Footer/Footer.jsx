@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <Link to="/" className="flex items-center mb-4 sm:mb-0">
-            <img src="/assets/logo.png" className="mr-9 w-[120px] h-[30px]" alt="Logo" />
+            <img src="/assets/logo.png" className="mr-9 w-[200px]" alt="Logo" />
 
           </Link>
 

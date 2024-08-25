@@ -18,18 +18,18 @@ export default function NavBar() {
 
   return (
     <nav className="w-full backdrop-blur-md bg-[#111]/40 sticky  z-50 top-0">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex md:px-8">
         <div>
-          <div className="flex items-center justify-between py-2 md:py-2 md:block">
+          <div className="flex items-center justify-between py-2 md:py-2 lg:block">
             <Link to="/">
               <img
                 src="/assets/logo.png"
                 alt="Logo"
-                className="w-[170px]"
+                className="w-[250px]"
               />
             </Link>
 
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
@@ -69,11 +69,11 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+            className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
               }`}
           >
             <ul
-              className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 px-4 py-4 font-semibold rounded-full md:ml-[-70px]">
+              className="items-center justify-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0 px-4 py-4 font-semibold rounded-full lg:ml-[-70px]">
 
               {NavLinks.map((navLink, i) => (
                 <li
