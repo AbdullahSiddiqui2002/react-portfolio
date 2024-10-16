@@ -27,7 +27,7 @@ const Project = () => {
         <h1 className='sm:text-4xl text-2xl text-center font-bold my-5 text-slate-200 font-madimi'>My Creative <span className='text-teal-500'>Projects</span> Section</h1>
 
 
-        <div className="flex sm:gap-3 gap-2 justify-center items-center my-6">
+        <div className="flex flex-wrap sm:gap-3 gap-2 justify-center items-center my-6">
 
           {filterOptions.map((option) => (
             <button

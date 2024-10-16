@@ -49,7 +49,7 @@
     },
     {
         "id": "3",
-        "title": "Online Grocery Store",
+        "title": "Online Grocery and Meat Store",
         "stack": "Dynamic Websites",    
         "tools": "HTML, CSS, JS, Mysql, Php Laravel",
         "description": "The Fruitables website is a vibrant and user-friendly platform designed for showcasing and selling organic fruits and vegetables. Developed using HTML, CSS, JavaScript, MySQL, and PHP Laravel, it offers a seamless and efficient shopping experience for customers.",
@@ -67,5 +67,36 @@
         ],
         "liveLink": "https://github.com/AbdullahSiddiqui2002/Fruitables_laravel-project",
         "gitHubLink": "https://github.com/AbdullahSiddiqui2002/Fruitables_laravel-project"
+    },
+    {
+        "id": "4",
+        "title": "Online Bus Reservation System",
+        "stack": "Dynamic Websites",    
+        "tools": "HTML, CSS, JS, SQL Server, Asp.net Core MVC",
+        "description": "I developed an Online Bus Ticket Reservation System for SRC Travel, a domestic transportation company, enabling efficient management of bus schedules, customer bookings, and seat availability in real-time. The system automates fare calculations based on factors like bus type and distance, supports role-based access for admins and employees, and provides real-time seat tracking across multiple locations. Built using ASP.NET Core and SQL Server with a responsive Bootstrap and jQuery interface, this project showcases my expertise in full-stack development, backend design, and creating solutions for real-time operations.",
+        "imgUrl": "/assets/project-4/banner.png",
+        "images": [
+            "/assets/project-4/1.png",
+            "/assets/project-4/2.png",
+            "/assets/project-4/3.png",
+            "/assets/project-4/4.png",
+            "/assets/project-4/5.png",
+            "/assets/project-4/6.png",
+            "/assets/project-4/7.png",
+            "/assets/project-4/8.png",
+            "/assets/project-4/9.png",
+            "/assets/project-4/10.png",
+            "/assets/project-4/11.png",
+            "/assets/project-4/12.png",
+            "/assets/project-4/13.png",
+            "/assets/project-4/14.png",
+            "/assets/project-4/15.png",
+            "/assets/project-4/16.png",
+            "/assets/project-4/17.png",
+            "/assets/project-4/18.png",
+            "/assets/project-4/19.png"
+        ],
+        "liveLink": "https://github.com/AbdullahSiddiqui2002/online-Bus_Reservation-System",
+        "gitHubLink": "https://github.com/AbdullahSiddiqui2002/online-Bus_Reservation-System"
     }
 ]
