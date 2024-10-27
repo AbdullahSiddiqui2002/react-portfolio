@@ -23,6 +23,7 @@ const AnimatedContact = () => {
         .then(() => {
                 
                 setSuccess(true);
+                formRef.current.reset();
             })
             .catch((error) => {
                 
