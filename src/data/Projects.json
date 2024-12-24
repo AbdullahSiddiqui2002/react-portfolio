@@ -137,6 +137,7 @@
         "description": "The project is a robust web application developed using AngularJS for the frontend and ASP.NET Core for the backend, featuring a Code First API architecture. It includes a comprehensive suite of APIs for managing event-related data, as showcased in the Swagger UI. Key functionalities include creating, reading, updating, and deleting event data, searching events by queries, fetching event types, and supporting pagination for efficient data handling. This project demonstrates seamless integration of modern technologies to provide a dynamic and user-friendly event management system.",
         "imgUrl": "/assets/project-6/banner.png",
         "images": [
+            "/assets/project-6/banner.png",
             "/assets/project-6/1.png",
             "/assets/project-6/2.png",
             "/assets/project-6/3.png",
