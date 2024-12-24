@@ -50,7 +50,7 @@
     {
         "id": "3",
         "title": "Online Grocery and Meat Store",
-        "stack": "Dynamic Websites",    
+        "stack": "Dynamic Websites",
         "tools": "HTML, CSS, JS, Mysql, Php Laravel",
         "description": "The Fruitables website is a vibrant and user-friendly platform designed for showcasing and selling organic fruits and vegetables. Developed using HTML, CSS, JavaScript, MySQL, and PHP Laravel, it offers a seamless and efficient shopping experience for customers.",
         "imgUrl": "/assets/project-3/banner.png",
@@ -70,10 +70,10 @@
     },
     {
         "id": "4",
-        "title": "Online Bus Reservation System",
-        "stack": "Dynamic Websites",    
+        "title": "Online Courses Website",
+        "stack": "Dynamic Websites",
         "tools": "HTML, CSS, JS, SQL Server, Asp.net Core MVC",
-        "description": "I developed an Online Bus Ticket Reservation System for SRC Travel, a domestic transportation company, enabling efficient management of bus schedules, customer bookings, and seat availability in real-time. The system automates fare calculations based on factors like bus type and distance, supports role-based access for admins and employees, and provides real-time seat tracking across multiple locations. Built using ASP.NET Core and SQL Server with a responsive Bootstrap and jQuery interface, this project showcases my expertise in full-stack development, backend design, and creating solutions for real-time operations.",
+        "description": "I developed an Online Course Management System, a robust platform designed to streamline the administration of courses, instructors, and student learning. The system features an intuitive Admin Panel for managing course creation, updates, and deletion, as well as instructor and lecture management, with support for embedded resources like YouTube links. Students can explore available courses through a responsive, user-friendly interface, view detailed descriptions, and access lecture materials. Built using ASP.NET Core MVC and SQL Server, the platform leverages a Bootstrap and jQuery-powered interface to ensure seamless navigation and a dynamic experience. This project demonstrates my expertise in full-stack development, database-driven applications, and crafting efficient solutions for academic and educational systems.",
         "imgUrl": "/assets/project-4/banner.png",
         "images": [
             "/assets/project-4/1.png",
@@ -93,10 +93,56 @@
             "/assets/project-4/15.png",
             "/assets/project-4/16.png",
             "/assets/project-4/17.png",
-            "/assets/project-4/18.png",
-            "/assets/project-4/19.png"
+            "/assets/project-4/18.png"
+        ],
+        "liveLink": "https://github.com/AbdullahSiddiqui2002/SecretCoder",
+        "gitHubLink": "https://github.com/AbdullahSiddiqui2002/SecretCoder"
+    },
+    {
+        "id": "5",
+        "title": "Online Bus Reservation System",
+        "stack": "Dynamic Websites",
+        "tools": "HTML, CSS, JS, SQL Server, Asp.net Core MVC",
+        "description": "I developed an Online Bus Ticket Reservation System for SRC Travel, a domestic transportation company, enabling efficient management of bus schedules, customer bookings, and seat availability in real-time. The system automates fare calculations based on factors like bus type and distance, supports role-based access for admins and employees, and provides real-time seat tracking across multiple locations. Built using ASP.NET Core and SQL Server with a responsive Bootstrap and jQuery interface, this project showcases my expertise in full-stack development, backend design, and creating solutions for real-time operations.",
+        "imgUrl": "/assets/project-5/banner.png",
+        "images": [
+            "/assets/project-5/1.png",
+            "/assets/project-5/2.png",
+            "/assets/project-5/3.png",
+            "/assets/project-5/4.png",
+            "/assets/project-5/5.png",
+            "/assets/project-5/6.png",
+            "/assets/project-5/7.png",
+            "/assets/project-5/8.png",
+            "/assets/project-5/9.png",
+            "/assets/project-5/10.png",
+            "/assets/project-5/11.png",
+            "/assets/project-5/12.png",
+            "/assets/project-5/13.png",
+            "/assets/project-5/14.png",
+            "/assets/project-5/15.png",
+            "/assets/project-5/16.png",
+            "/assets/project-5/17.png",
+            "/assets/project-5/18.png",
+            "/assets/project-5/19.png"
         ],
         "liveLink": "https://github.com/AbdullahSiddiqui2002/online-Bus_Reservation-System",
         "gitHubLink": "https://github.com/AbdullahSiddiqui2002/online-Bus_Reservation-System"
+    },
+    {
+        "id": "6",
+        "title": "Event Management System",
+        "stack": "Dynamic Websites",
+        "tools": "AngularJS, SQL Server, Asp.net Core MVC, Asp.net Web API",
+        "description": "The project is a robust web application developed using AngularJS for the frontend and ASP.NET Core for the backend, featuring a Code First API architecture. It includes a comprehensive suite of APIs for managing event-related data, as showcased in the Swagger UI. Key functionalities include creating, reading, updating, and deleting event data, searching events by queries, fetching event types, and supporting pagination for efficient data handling. This project demonstrates seamless integration of modern technologies to provide a dynamic and user-friendly event management system.",
+        "imgUrl": "/assets/project-6/banner.png",
+        "images": [
+            "/assets/project-6/1.png",
+            "/assets/project-6/2.png",
+            "/assets/project-6/3.png",
+            "/assets/project-6/4.png"
+        ],
+        "liveLink": "https://github.com/AbdullahSiddiqui2002/angular_apidotnet",
+        "gitHubLink": "https://github.com/AbdullahSiddiqui2002/angular_apidotnet"
     }
 ]
