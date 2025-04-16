@@ -2,15 +2,11 @@
 import about from '../../data/About.json'
 import { motion } from 'framer-motion'
 import { FaLinkedin } from 'react-icons/fa'
-import { SiUpwork } from 'react-icons/si'
-import { AiFillMail, AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { Spotlight } from '../../components'
 const About = () => {
 
-  const openGmail = () => {
-    window.location.hto = `mailto:${about.gmail}`;
-  };
   return (
     <motion.div
       whileInView={{ y: [100, 0], opacity: [0, 1] }}
@@ -31,7 +27,7 @@ const About = () => {
         <div className="flex my-5">
           <button className='py-2 px-4 bg-gradient-to-b from-teal-700 to-teal-500  rounded-full border border-teal-300 hover:from-black/10 transition-all shadow-lg mx-5 '><Link to={about.cv} target='_blank' className='md:text-lg' download={about.cv}> Download CV</Link> </button>
 
-          <button className='py-2 px-6 rounded-full border border-teal-300 hover:bg-gradient-to-b from-teal-700 to-teal-500 transition-all uppercase shadow-lg'><Link to={about.upWork} target='_blank' className='md:text-lg'>Hire Me</Link> </button>
+          <button className='py-2 px-6 rounded-full border border-teal-300 hover:bg-gradient-to-b from-teal-700 to-teal-500 transition-all uppercase shadow-lg'><Link to="/contact" className='md:text-lg'>Hire Me</Link> </button>
         </div>
         <div className="md:w-[500px] w-[350px] h-[1px] bg-teal-500 my-5"></div>
 
