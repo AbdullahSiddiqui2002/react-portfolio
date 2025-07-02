@@ -65,7 +65,7 @@ export const InfiniteMovingCards = ({
             >
                 {items.map((item, idx) => (
                     <li key={idx}>
-                        <img src={item.imgSrc} className="w-full h-[150px]" alt="" />
+                        <img src={item.imgSrc} className="w-full h-[120px]" alt="" />
                         <p className="mt-2 text-center text-white">{item.title}</p>
                     </li>
                 ))}

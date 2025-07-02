@@ -3,9 +3,9 @@
     "skill": "FULL STACK Developer",
     "profileImg":"src/assets/profile.png",
     "skillsImages":[
-        "/assets/skills/html.png",
+        "/assets/skills/asp.net.png",
         "/assets/skills/c-sharp.png",
-        "/assets/skills/asp.net.png"
+        "/assets/skills/angular.png"
     ]
 
 }

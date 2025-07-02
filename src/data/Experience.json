@@ -1,14 +1,14 @@
 [
-    {
-        "company": "Xera Marketing",
-        "jobTitle":"Junior Frontend developer",
-        "description":"I've joined an amazing team where I'll be putting my skills in HTML, CSS, and JavaScript to work on exciting projects.",
-        "duration": "Feb 2024 - Oct 2024"
-    },
-    {
-        "company": "Xera Marketing",
-        "jobTitle":"Frontend developer Intern",
-        "description":"During this enriching experience from January to February 2024, I delved deep into HTML, CSS, and JavaScript, honing my skills and exploring various facets of web development.",
-        "duration": "Jan 2024 - Feb 2024"
-    }
+  {
+    "company": "Codoyens",
+    "jobTitle": "Angular & .NET Developer",
+    "description": "I recently joined Codoyens as an Angular & .NET Developer, starting with a 3-month probation period. This opportunity allows me to work across full-stack development, contributing to dynamic projects and furthering my career growth in a collaborative and professional environment.",
+    "duration": "Jun 2025 – Present"
+  },
+  {
+    "company": "Xera Marketing",
+    "jobTitle": "Frontend Developer (Intern → Junior Developer)",
+    "description": "At Xera Marketing, I started as a Frontend Developer Intern and was later promoted to Junior Frontend Developer. During my time there, I worked extensively with HTML, CSS, and JavaScript, contributing to real-world projects and improving my technical and team collaboration skills. This experience laid a solid foundation for my frontend development expertise.",
+    "duration": "Jan 2024 – Oct 2024"
+  }
 ]

@@ -8,7 +8,7 @@ const musicSchoolTestimonials = [
   { imgSrc: '/assets/skills/sql-server.png', title: 'SQL Server' },
   { imgSrc: '/assets/skills/c-sharp.png', title: 'C#' },
   { imgSrc: '/assets/skills/asp.net.png', title: 'ASP.NET' },
-  { imgSrc: '/assets/skills/angular.jpg', title: 'Angular JS' },
+  { imgSrc: '/assets/skills/angular.png', title: 'Angular JS' },
   { imgSrc: '/assets/skills/mysql.png', title: 'MySQL' },
   { imgSrc: '/assets/skills/github.png', title: 'GitHub' },
   { imgSrc: '/assets/skills/owl-carousel.png', title: 'Owl Carousel' },
